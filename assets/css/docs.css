@@ -125,9 +125,8 @@ h4{
   color: #fff;
 }
 
-.follow{
-  margin-top: 400px;
-  color: #3399ff;
+.sepline{
+  margin-top: 50px;
 }
 
 @media (max-width: 979px) {
