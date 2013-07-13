@@ -5,6 +5,8 @@ body {
   padding-top: 100px;
   font:15px/1.4 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5em;
+  word-spacing: 2px;
+  line-height: 1.2em;
 }
 
 h2{
