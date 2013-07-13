@@ -1,4 +1,4 @@
-tjdocs
-======
+Tuplejump-docs
+=============
 
-Tuplejump docs template.
+Template for tuplejump docs and tutorials

@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding-top: 100px;
+  font:16px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2{
+  color: #3399ff;
+}
+.logo-brand{
+    background-image:url('../img/tj-white.png'); 
+    background-size:40px 40px;
+    height: 60px;
+    width: 60px;
+    list-style: none;
+    border-radius: 60px;
+    background-color: #3399ff;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.navbar-inner {
+  border-top: 20px solid #222;
+  padding: 5px 0px;
+  background-image: none;
+  background-color:  #fff;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+.navbar .nav.pull-right li {
+  line-height: 42px
+}
+.navbar .nav.pull-right a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #222;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: none;
+}
+.navbar .nav.pull-right li:last-child a {
+  margin-right: 0px;
+}
+.navbar .nav.pull-right a:hover {
+  color: #3399ff;
+}
+.navbar .nav.pull-right a.orange-button {
+  display: inline-block;
+}
+
+#menu {
+  min-height: 800px;
+  border-right: 1px solid #eee;
+  width: 180px;
+}
+@media (min-width: 1200px) {
+  width: 200px;
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  #menu {
+    width: 140px;
+  }
+}
+@media (max-width: 768px) {
+  #menu {
+    min-height: 0px;
+    border: none;
+    position: static;
+    width: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+#menu li.nav-header {
+  color: #3399ff;
+  font-family: 'Montserrat';
+  font-size: .9em;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#menu li.data-section{
+  border: 1px solid #222;
+  background-color: #222;
+}
+
+#menu.nav-list > .active > a,
+#menu.nav-list > .active > a:hover,
+#menu.nav-list > .active > a:focus {
+  color: #555;
+  background-color: #fff;
+  font-family:'Montserrat';
+  font-size: .8em;
+}
+
+.nav-list li.data-section a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #222;
+  background-color: #222;
+}
+#menu li a {
+  text-shadow: none;
+}
+#menu li.active a {
+  color: #fff;
+}
+
+.follow{
+  margin-top: 30%;
+  color: #3399ff;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
