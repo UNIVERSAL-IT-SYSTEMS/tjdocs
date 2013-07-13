@@ -3,12 +3,24 @@
 
 body {
   padding-top: 100px;
-  font:16px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:15px/1.4 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
 }
 
 h2{
   color: #3399ff;
+  font-size: 1.3em;
 }
+
+h3{
+  color: #3399ff;
+  font-size: 1.2em;
+}
+h4{
+  color: #3399ff;
+  font-size: 1.1em;
+}
+
 .logo-brand{
     background-image:url('../img/tj-white.png'); 
     background-size:40px 40px;
