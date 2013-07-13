@@ -1,4 +1,4 @@
 Tuplejump-docs
 =============
 
-Template for tuplejump docs and tutorials
+Documentation template for tuplejump projects.
